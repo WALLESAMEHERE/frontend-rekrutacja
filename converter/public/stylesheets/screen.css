@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box; }
+
+.row {
+  margin: 0 !important; }
+
+body {
+  background-color: #DBDBDB !important; }
+
+.container {
+  display: block;
+  width: 100%;
+  height: 400px;
+  padding: 10px 40px; }
+  .container .box {
+    position: relative;
+    display: block;
+    margin: 0 auto; }
+    .container .box h1 span {
+      font-weight: bold; }
+
+.amount_area {
+  background-color: white;
+  padding: 10px; }
+  .amount_area p {
+    color: grey; }
+  .amount_area .amount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    border: 1px solid grey;
+    border-radius: 10px; }
+    .amount_area .amount .in_number input[type=text] {
+      font-size: 3em;
+      height: 80px;
+      outline: none;
+      border: 2px solid white; }
+    .amount_area .amount .acc_change {
+      -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+              align-items: stretch;
+      text-align: center;
+      background-color: #67eab1;
+      margin: 0;
+      padding: 0; }
+      .amount_area .amount .acc_change button {
+        font-size: 1.7em;
+        color: white;
+        background-color: #67eab1;
+        outline: none;
+        text-decoration: none;
+        border: 2px solid #67eab1;
+        height: 100%; }
+
+.box_changed_amount {
+  padding: 0 !important;
+  margin-top: 15px; }
+  .box_changed_amount ul {
+    padding: 0;
+    list-style-position: outside; }
+    .box_changed_amount ul li {
+      width: 47%;
+      margin: 0 3% 3% 0;
+      float: left;
+      list-style: none; }
+      .box_changed_amount ul li h2 {
+        font-size: 1.2em; }
+      .box_changed_amount ul li .changed_amount {
+        padding: 10px;
+        text-align: center;
+        background-color: white; }
+        .box_changed_amount ul li .changed_amount h2 {
+          color: grey; }
+        .box_changed_amount ul li .changed_amount p {
+          font-size: 3em; }
+      .box_changed_amount ul li span {
+        color: grey;
+        font-size: 1.2em; }
