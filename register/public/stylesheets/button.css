@@ -1,0 +1,12 @@
+form button {
+  background-color: #30306d;
+  border: 2px solid transparent;
+  color: white;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  margin: 15px 0;
+  padding: 5px 30px;
+  text-transform: uppercase; }
+  form button:hover {
+    background-color: #5b5bc6;
+    transition: 0.4s; }

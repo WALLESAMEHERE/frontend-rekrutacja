@@ -1,0 +1,19 @@
+@import 'colors';
+*{
+	text-align:center;
+	box-sizing:border-box;
+	font-size: 14px;
+
+}
+html{
+	font-family: 'Lato', sans-serif;
+    background-color: $body-bg;;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+header{
+	padding: 10px 0;
+	margin:0 -15px;
+	color:$dark-blue;
+}

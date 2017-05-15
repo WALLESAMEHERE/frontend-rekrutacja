@@ -1,0 +1,9 @@
+@import 'colors';
+header{
+	border-bottom:1px solid $form-bg;
+}
+.partners-area:nth-child(2){
+	border-bottom:1px solid $form-bg;
+	border-top:1px solid $form-bg;
+	padding:10px 0 0 0;
+}

@@ -1,0 +1,39 @@
+@media (min-width: 1151px) {
+  	.label-info{
+ 		padding: 30px;
+ 	}
+ 	.partners-area .photos img {
+   		width: 10%;
+	}
+}
+@media (min-width: 769px) and (max-width: 1150px) {
+  .container{
+  	width: 90%;
+  }
+    .icons img{
+  	margin: 10px 0;
+  }
+  	.label-info{
+ 		padding: 30px;
+ 	}
+ 	.partners-area .photos img {
+   		width: 9%;
+	}
+}
+
+@media (max-width: 768px) {
+  .container{
+  	width: 100%;
+  	margin:0;
+  }
+ 	.label-form{
+		text-align: center !important;
+ 	}
+ 	.label-info{
+ 		padding: 0;
+ 	}
+ 	.partners-area .photos img {
+   		width: 9%;
+   		margin:4px 0;
+	}
+}

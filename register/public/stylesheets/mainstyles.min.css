@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 14px; }
+
+html {
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  box-sizing: border-box;
+  font-size: 14px; }
+
+header {
+  padding: 10px 0;
+  margin: 0 -15px;
+  color: #30306d; }

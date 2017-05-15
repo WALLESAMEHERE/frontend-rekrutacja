@@ -1,0 +1,32 @@
+.form-main {
+  background-color: #e5ceae;
+  padding: 20px; }
+  .form-main .input-box {
+    margin: 15px 0; }
+    .form-main .input-box .label-form {
+      text-align: right;
+      line-height: 25px; }
+  .form-main input {
+    border: 1px solid #b9b9b9;
+    border-bottom: 1px solid #30306d;
+    width: 90%; }
+  .form-main .login-link {
+    text-transform: uppercase; }
+
+.container {
+  margin: 2%;
+  width: 70%;
+  background-color: #FFFFFF;
+  border: 1px solid #ebd5b5;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.35); }
+
+.partners-area {
+  padding: 5px 0; }
+  .partners-area .label-info {
+    margin: auto;
+    color: #929292; }
+  .partners-area img {
+    width: 100%; }
+  .partners-area .photos img {
+    width: 10% !important;
+    margin: 0 5px; }
